@@ -28,7 +28,7 @@ export const CardExamples: React.FC = () => {
                     <IonItem lines="full" >
                         <IonIcon slot="end" icon={moon} color={lightTheme} ></IonIcon>
                         <IonLabel slot="end" color={lightTheme}>Dark mode</IonLabel>
-                        <IonToggle slot="end" name="dark-mode" color="dark" checked={darkMode} onClick={handleClick} ></IonToggle>
+                        <IonToggle slot="end" name="dark-mode" color="primary" checked={darkMode} onClick={handleClick} ></IonToggle>
                     </IonItem>
                 </IonList>
                 <IonRow>
